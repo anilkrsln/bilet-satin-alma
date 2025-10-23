@@ -1,0 +1,88 @@
+:root {
+  --turkuaz: #00BCD4;
+  --siyah: #0B0F10;
+  --siyah-2: #0F1416;
+  --beyaz: #FFFFFF;
+  --metin: #E6F7FA;
+  --hat: #1d2b31;
+  --focus: rgba(0, 188, 212, .35);
+
+  /* Bootstrap renk eşlemesi */
+  --bs-body-bg: var(--siyah);
+  --bs-body-color: var(--metin);
+  --bs-primary: var(--turkuaz);
+  --bs-secondary: #748A91;
+  --bs-border-color: #19363d;
+}
+
+html, body {
+  background: var(--siyah);
+  color: var(--metin);
+}
+
+.navbar, .footer, .card, .dropdown-menu, .offcanvas, .modal-content {
+  background: var(--siyah-2);
+  border-color: var(--bs-border-color) !important;
+}
+
+.navbar-brand, .brand { color: var(--turkuaz) !important; }
+
+a { color: var(--turkuaz); }
+a:hover { opacity: .9; }
+
+.btn-primary, .btn-turkuaz {
+  --bs-btn-bg: var(--turkuaz);
+  --bs-btn-border-color: var(--turkuaz);
+  --bs-btn-hover-bg: #00a7bd;
+  --bs-btn-hover-border-color: #00a7bd;
+  --bs-btn-color: #001015;
+}
+.btn-outline-light { border-color: #2b4147; color: var(--metin); }
+.btn-outline-light:hover { background: #102126; }
+
+.form-control, .form-select, .form-check-input {
+  background: var(--siyah);
+  color: var(--metin);
+  border-color: #16353b;
+}
+.form-control:focus, .form-select:focus, .form-check-input:focus, .btn:focus {
+  border-color: var(--turkuaz);
+  box-shadow: 0 0 0 .25rem var(--focus);
+}
+
+.card {
+  border: 1px solid var(--bs-border-color);
+  box-shadow: 0 4px 16px rgba(0,0,0,.25);
+}
+
+.badge-soft {
+  background: rgba(0,188,212,.15);
+  color: var(--turkuaz);
+  border: 1px solid rgba(0,188,212,.25);
+}
+
+.table {
+  --bs-table-color: var(--metin);
+  --bs-table-bg: transparent;
+  --bs-table-border-color: var(--bs-border-color);
+}
+.table thead th { color: var(--beyaz); }
+
+.alert {
+  border-color: var(--bs-border-color);
+}
+.alert-warning {
+  background: #2a2100; color: #ffecb3; border-color: #4d3c00;
+}
+.alert-danger {
+  background: #2a0003; color: #ffcdd2; border-color: #4d0010;
+}
+.alert-success {
+  background: #001f1b; color: #b2f5ea; border-color: #003a32;
+}
+
+/* küçük yardımcılar */
+.section-title { font-weight: 700; letter-spacing: .2px; }
+.hr-soft { border-color: var(--bs-border-color); opacity: .5; }
+.shadow-soft { box-shadow: 0 6px 24px rgba(0,0,0,.25); }
+.round-2xl { border-radius: 1rem; }
