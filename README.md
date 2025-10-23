@@ -101,4 +101,6 @@ php -m | grep sqlite → SQLite modül kontrolü
 Bu proje, 20 gün boyunca sıfırdan öğrenme süreciyle, PHP ve SQLite teknolojileriyle geliştirilmiş tam işlevsel bir bilet satın alma sistemidir.
 Uygulama Docker üzerinde taşınabilir, Bootstrap dark temalı modern bir arayüze sahip ve üç farklı kullanıcı rolü ile gerçek bir senaryoyu modellemektedir.
 
-**Proje şuan tam haliyle bitmiş değil. İlerleyen süreçte daha iyi bir hale getirmeye çalışacağım.**
+**Proje şuan tam haliyle bitmiş değil. İlerleyen süreçte daha iyi bir hale getirmeye çalışacağım.**   
+
+> Bu proje, Anıl Karaaslan tarafından 2025 yılında geliştirilmiştir ❤️
