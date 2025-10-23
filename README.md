@@ -80,21 +80,20 @@ Bu proje benim için sadece bir ödev değil, aynı zamanda tam anlamıyla bir �
 
 ## 📦 Proje Geliştirme Süresi
 
-Toplam Süre: Yaklaşık 20 gün
-Çalışma Ortamı: XAMPP (lokal geliştirme) + Docker (taşınabilir teslim)
-Öğrenilen Teknolojiler: PHP, SQLite, PDO, Docker, GitHub
+Toplam Süre: Yaklaşık 20 gün  
+Çalışma Ortamı: XAMPP (lokal geliştirme) + Docker (taşınabilir teslim)  
+Öğrenilen Teknolojiler: PHP, SQLite, PDO, Docker, GitHub  
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Geliştirici  
+Anıl Karaaslan  
+Bilgisayar Mühendisliği 2. Sınıf Öğrencisi  
+GitHub: https://github.com/anilkrsln  
+Linkedin: https://www.linkedin.com/in/anıl-bayram-karaaslan-a0b81a305  
 
-Anıl Karaaslan
-Bilgisayar Mühendisliği 2. Sınıf Öğrencisi
-GitHub: https://github.com/anilkrsln
-Linkedin: www.linkedin.com/in/anıl-bayram-karaaslan-a0b81a305
-## 📚 Kurulum Özeti
-
-docker compose up --build → Uygulamayı başlatır
-docker compose down → Servisleri kapatır
-docker exec -it bubilet_app bash → Konteyner içine girer
+## 📚 Kurulum Özeti  
+docker compose up --build → Uygulamayı başlatır  
+docker compose down → Servisleri kapatır  
+docker exec -it bubilet_app bash → Konteyner içine girer  
 php -m | grep sqlite → SQLite modül kontrolü
 
 ### 🏁 Sonuç
